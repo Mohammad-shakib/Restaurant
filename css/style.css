@@ -1,0 +1,442 @@
+#top-bc {
+  min-height: 650px;
+  background-image: url("../img/restaurant.jpeg");
+  background-size: cover;
+  background-attachment: fixed; }
+  #top-bc #nav-section .navbar {
+    padding: 25px;
+    background-color: black; }
+  #top-bc #nav-section a {
+    color: yellow; }
+  #top-bc #nav-section .nav-link {
+    font-size: 20px;
+    color: white; }
+  #top-bc #nav-section .dropdown-menu {
+    background-color: green; }
+  #top-bc #nav-section .dropdown-item {
+    color: yellow;
+    font-size: 20px; }
+  #top-bc #nav-section .dropdown-item:hover {
+    background-color: black; }
+  #top-bc #nav-section .book {
+    border: 2px solid green;
+    border-radius: 15px; }
+  #top-bc #nav-section .book:hover {
+    background-color: #30336b; }
+  #top-bc #home {
+    padding: 140px; }
+    #top-bc #home h1 {
+      color: #CDA45E;
+      font-size: 40px;
+      margin-bottom: 20px; }
+    #top-bc #home p {
+      font-size: 20px;
+      color: #CDA45E; }
+    #top-bc #home a {
+      text-decoration: none;
+      font-size: 20px;
+      color: green;
+      border: 2px solid black;
+      padding: 10px;
+      border-radius: 15px; }
+    #top-bc #home a:hover {
+      background-color: #535c68;
+      color: white; }
+    #top-bc #home .videO {
+      margin-top: 30%;
+      text-align: center; }
+      #top-bc #home .videO a {
+        border: 0; }
+      #top-bc #home .videO a:hover {
+        color: inherit;
+        background-color: inherit; }
+      #top-bc #home .videO .fab {
+        font-size: 60px;
+        color: red; }
+
+#about {
+  min-height: 450px;
+  background-image: url("../img/about-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 25px;
+  color: white; }
+  #about .far {
+    font-size: 25px;
+    color: yellow; }
+  #about img:hover {
+    box-shadow: 0 8px 16px 0 black; }
+
+#why-us {
+  padding: 25px;
+  background-color: black;
+  color: white; }
+  #why-us h3 {
+    font-size: 20px; }
+  #why-us hr {
+    border: 2px solid green;
+    width: 20%;
+    margin-left: 0; }
+  #why-us h2 {
+    color: #CDA45E;
+    font-size: 40px; }
+  #why-us .card-body {
+    background-color: black; }
+  #why-us .card-body:hover {
+    background-color: #C59E5B;
+    transition: 3s; }
+
+#menu {
+  padding: 30px;
+  background-color: #1A1814; }
+  #menu .menu-1 {
+    font-size: 15px;
+    color: white; }
+  #menu hr {
+    border: 1px solid darkblue;
+    width: 20%;
+    margin-left: 0; }
+  #menu .menu-2 {
+    font-size: 45px;
+    color: #CDA45E; }
+  #menu ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  #menu ul, #menu li {
+    list-style-type: none;
+    float: left; }
+  #menu ul, #menu li, #menu a {
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 12px 16px; }
+  #menu li, #menu a {
+    font-size: 25px;
+    color: white; }
+  #menu li, #menu a:hover {
+    color: #CDA45E; }
+  #menu img {
+    width: 80px;
+    margin-top: 40px; }
+  #menu h5 {
+    color: #CDA45E; }
+  #menu p {
+    margin-left: 100px;
+    margin-top: 0;
+    color: white; }
+
+#specials {
+  padding: 30px;
+  background-color: #0C0B09; }
+  #specials h5 {
+    font-size: 15px;
+    color: white; }
+  #specials hr {
+    border: 1px solid white;
+    width: 20%;
+    margin-left: 0; }
+  #specials h2 {
+    font-size: 45px;
+    color: #CDA45E; }
+  #specials ul, #specials li {
+    margin: 0;
+    padding: 0;
+    list-style-type: circle; }
+  #specials li, #specials a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 2.0; }
+  #specials li, #specials a:hover {
+    color: #CDA45E; }
+  #specials h3 {
+    color: #CDA45E;
+    font-size: 25px; }
+  #specials p {
+    color: #CDA45E; }
+
+#event {
+  position: relative;
+  height: 650px;
+  background-image: url("../img/restaurant-interior.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+  #event .dark-overlay {
+    position: absolute;
+    background-color: black;
+    height: 650px;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6; }
+  #event .first-text h3 {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px; }
+  #event .first-text hr {
+    border: 1px solid green;
+    width: 20%;
+    margin-left: 0; }
+  #event .first-text h2 {
+    font-size: 30px;
+    color: #CDA45E;
+    margin-bottom: 20px; }
+  #event img {
+    width: 100%; }
+  #event .img-text {
+    margin-top: 20px; }
+    #event .img-text h3 {
+      color: #CDA45E;
+      font-size: 20px; }
+    #event .img-text h6 {
+      color: #CDA45E;
+      font-size: 20px; }
+    #event .img-text hr {
+      border: 1px solid green;
+      width: 20%;
+      margin-left: 0; }
+    #event .img-text p {
+      color: white; }
+
+#book-a-table {
+  padding: 40px;
+  background-color: black; }
+  #book-a-table h3 {
+    font-size: 18px;
+    color: white; }
+  #book-a-table hr {
+    border: 1px solid white;
+    width: 20%;
+    margin-left: 0; }
+  #book-a-table h2 {
+    font-size: 50px;
+    color: #CDA45E; }
+  #book-a-table input {
+    border: 0.5px solid white; }
+  #book-a-table textarea {
+    border: 0.5px solid white;
+    margin-bottom: 20px; }
+  #book-a-table .submiT {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #CDA45E;
+    padding: 10px;
+    background-color: #CDA45E;
+    color: black; }
+
+#gallery {
+  padding: 40px;
+  background-color: #273c75; }
+  #gallery h3 {
+    font-size: 20px;
+    color: white; }
+  #gallery h2 {
+    color: #CDA45E;
+    font-size: 40px; }
+  #gallery img {
+    width: 100%; }
+  #gallery img:hover {
+    box-shadow: 0 8px 16px 0 black;
+    transition: 1.5s; }
+
+#chefs {
+  padding: 40px;
+  background-color: black; }
+  #chefs h3 {
+    color: white;
+    font-size: 20px; }
+  #chefs h2 {
+    font-size: 40px;
+    color: #CDA45E;
+    padding-bottom: 20px; }
+  #chefs img {
+    width: 100%; }
+  #chefs .img-text {
+    margin-top: -110px;
+    text-align: center; }
+    #chefs .img-text h4 {
+      color: black;
+      font-size: 25px; }
+    #chefs .img-text p {
+      color: black;
+      font-size: 15px; }
+    #chefs .img-text .fab {
+      color: black;
+      font-size: 25px;
+      margin-right: 10px; }
+
+#contact {
+  padding: 40px;
+  background-color: black; }
+  #contact h3 {
+    color: white;
+    font-size: 20px; }
+  #contact hr {
+    border: 1px solid green;
+    margin-left: 0;
+    width: 20%; }
+  #contact h2 {
+    font-size: 40px;
+    color: green;
+    margin-bottom: 20px; }
+  #contact .location .fas,
+  #contact .open-hours .fas,
+  #contact .email .fas,
+  #contact .call .fas {
+    font-size: 25px;
+    color: green; }
+  #contact .location h3,
+  #contact .open-hours h3,
+  #contact .email h3,
+  #contact .call h3 {
+    font-size: 15px; }
+  #contact a {
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: #CDA45E;
+    color: white;
+    font-family: sans-serif;
+    text-align: center; }
+
+#footer {
+  padding: 40px;
+  background-color: #6D214F; }
+  #footer .footer-1-section {
+    color: white; }
+    #footer .footer-1-section h2 {
+      font-size: 30px;
+      color: white; }
+    #footer .footer-1-section p {
+      font-size: 15px; }
+  #footer .footer-2-section h2 {
+    color: #CDA45E;
+    font-size: 30px; }
+  #footer .footer-2-section li, #footer .footer-2-section a {
+    list-style-type: circle;
+    font-size: 20px;
+    color: white;
+    text-decoration: none; }
+  #footer .footer-3-section h3 {
+    color: #CDA45E;
+    font-size: 30px; }
+  #footer .footer-3-section li, #footer .footer-3-section a {
+    list-style-type: circle;
+    font-size: 20px;
+    color: white;
+    text-decoration: none; }
+  #footer .footer-4-section h3 {
+    color: #CDA45E;
+    font-size: 30px;
+    margin-bottom: 20px; }
+  #footer .footer-4-section p {
+    font-size: 20px;
+    color: white; }
+
+#copyright-section {
+  padding: 40px;
+  background-color: black;
+  text-align: center; }
+  #copyright-section .fas {
+    font-size: 20px;
+    color: green; }
+  #copyright-section h6 {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px; }
+  #copyright-section p {
+    font-size: 15px;
+    color: white; }
+
+@media (max-width: 768px) {
+  #top-bc #home {
+    text-align: center; }
+    #top-bc #home h1 {
+      font-size: 100%; }
+    #top-bc #home p {
+      font-size: 100%; }
+    #top-bc #home a {
+      font-size: 100%; }
+    #top-bc #home .videO {
+      margin-top: 10%; }
+      #top-bc #home .videO .fab {
+        font-size: 60px;
+        color: green; }
+  #menu .menu-2 {
+    font-size: 30px; }
+  #menu li, #menu a {
+    font-size: 100%; }
+  #menu img {
+    width: 25%;
+    margin-top: 0px; }
+  #menu h5 {
+    font-size: 15px;
+    text-align: center; }
+  #menu p {
+    padding-bottom: 20px; } }
+
+@media (max-width: 576px) {
+  #why-us h2 {
+    font-size: 25px; }
+  #why-us .card {
+    margin-bottom: 10px; }
+  #event {
+    height: 1800px;
+    position: relative; }
+    #event .dark-overlay {
+      height: 1800px;
+      position: absolute; }
+    #event img {
+      margin-top: 30px; }
+    #event .first-text h2 {
+      font-size: 100%; }
+  #gallery h2 {
+    font-size: 100%; }
+  #gallery img {
+    margin-bottom: 10px; }
+  #chefs .img-text {
+    margin-bottom: 20px; } }
+
+@media (max-width: 480px) {
+  #home h1 {
+    font-size: 100%; }
+  #specials h2 {
+    font-size: 25px; }
+  #event {
+    height: 1650px;
+    position: relative; }
+    #event .dark-overlay {
+      height: 1650px;
+      position: absolute; }
+  #chefs h2 {
+    font-size: 100%; }
+  #book-a-table h2 {
+    font-size: 100%; } }
+
+@media (max-width: 380px) {
+  #why-us h2 {
+    font-size: 20px; }
+  #why-us .card {
+    margin-bottom: 10px; }
+  #menu .menu-2 {
+    font-size: 20px; }
+  #menu li, #menu a {
+    float: none;
+    display: none; }
+  #menu img {
+    width: 100%; }
+  #menu h5 {
+    margin-left: 60px;
+    text-align: center; }
+  #menu p {
+    font-size: 15px;
+    text-align: left; }
+  #event {
+    height: 1480px;
+    position: relative; }
+    #event .dark-overlay {
+      height: 1480px;
+      position: absolute; } }

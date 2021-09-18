@@ -1,0 +1,626 @@
+$font-size: 30px;
+#top-bc{
+  min-height: 650px;
+  background-image: url("../img/restaurant.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  #nav-section{
+    .navbar{
+      padding: 25px;
+      background-color: black;
+    }
+    a{
+      color: yellow;
+    }
+    .nav-link{
+      font-size: 20px;
+      color: white;
+    }
+    .dropdown-menu{
+      background-color: green;
+    }
+    .dropdown-item{
+      color: yellow;
+      font-size: 20px;
+    }
+    .dropdown-item:hover{
+      background-color: black;
+    }
+    .book{
+      border: 2px solid green;
+      border-radius: 15px;
+    }
+    .book:hover{
+      background-color: #30336b;
+    }
+  }
+  #home{
+    padding: 140px;
+    h1{
+      color: #CDA45E;
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 20px;
+      color: #CDA45E;
+    }
+    a{
+      text-decoration: none;
+      font-size: 20px;
+      color: green;
+      border: 2px solid black;
+      padding: 10px;
+      border-radius: 15px;
+    }
+    a:hover{
+      background-color: #535c68;
+      color: white;
+    }
+    .videO{
+      margin-top: 30%;
+      text-align: center;
+      a{
+        border: 0;
+      }
+      a:hover{
+        color: inherit;
+        background-color: inherit;
+      }
+      .fab{
+        font-size: 60px;
+        color: red;
+      }
+    }
+  }
+}
+#about{
+  min-height: 450px;
+  background-image: url("../img/about-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 25px;
+  color: white;
+  .far{
+    font-size: 25px;
+    color: yellow;
+  }
+  img:hover{
+    box-shadow: 0 8px 16px 0 black;
+  }
+}
+#why-us{
+  padding: 25px;
+  background-color: black;
+  color: white;
+  h3{
+    font-size: 20px;
+  }
+  hr{
+    border: 2px solid green;
+    width: 20%;
+    margin-left: 0;
+  }
+  h2{
+    color: #CDA45E;
+    font-size: 40px;
+  }
+  .card-body{
+    background-color: black;
+  }
+  .card-body:hover{
+    background-color: #C59E5B;
+    transition: 3s;
+  }
+}
+#menu{
+  padding: 30px;
+  background-color: #1A1814;
+  .menu-1{
+    font-size: 15px;
+    color: white;
+  }
+  hr{
+    border: 1px solid darkblue;
+    width: 20%;
+    margin-left: 0;
+  }
+  .menu-2{
+    font-size: 45px;
+    color: #CDA45E;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  ul,li{
+    list-style-type: none;
+    float: left;
+  }
+  ul,li,a{
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 12px 16px;
+  }
+  li,a{
+    font-size: 25px;
+    color:  white;
+  }
+  li,a:hover{
+    color: #CDA45E;
+  }
+  img{
+    width: 80px;
+    margin-top: 40px;
+  }
+  h5{
+    color: #CDA45E;
+  }
+  p{
+    margin-left: 100px;
+    margin-top: 0;
+    color: white;
+  }
+}
+#specials{
+  padding: 30px;
+  background-color: #0C0B09;
+  h5{
+    font-size: 15px;
+    color: white;
+  }
+  hr{
+    border: 1px solid white;
+    width: 20%;
+    margin-left: 0;
+  }
+  h2{
+    font-size: 45px;
+    color: #CDA45E;
+  }
+  ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: circle;
+  }
+  li,a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 2.0;
+  }
+  li,a:hover{
+    color: #CDA45E;
+  }
+  h3{
+    color: #CDA45E;
+    font-size: 25px;
+  }
+  p{
+    color: #CDA45E;
+  }
+
+}
+#event{
+    position: relative;
+   height: 650px;
+   background-image: url('../img/restaurant-interior.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+  .dark-overlay{
+    position: absolute;
+    background-color: black;
+    height: 650px;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+  }
+  .first-text{
+    h3{
+      color: white;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    hr{
+      border: 1px solid green;
+      width: 20%;
+      margin-left: 0;
+    }
+    h2{
+      font-size: 30px;
+      color: #CDA45E;
+      margin-bottom: 20px;
+    }
+  }
+  img{
+    width: 100%;
+  }
+  .img-text{
+    margin-top: 20px;
+    h3{
+      color: #CDA45E;
+      font-size: 20px;
+    }
+    h6{
+      color: #CDA45E;
+      font-size: 20px;
+    }
+    hr{
+      border: 1px solid green;
+      width: 20%;
+      margin-left: 0;
+    }
+    p{
+      color: white;
+    }
+  }
+}
+#book-a-table{
+  padding: 40px;
+  background-color: black;
+  h3{
+    font-size: 18px;
+    color: white;
+  }
+  hr{
+    border: 1px solid white;
+    width: 20%;
+    margin-left: 0;
+  }
+  h2{
+    font-size: 50px;
+    color: #CDA45E;
+  }
+  input{
+    border: 0.5px solid white;
+  }
+  textarea{
+    border: 0.5px solid white;
+    margin-bottom: 20px;
+  }
+  .submiT{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #CDA45E;
+    padding: 10px;
+    background-color: #CDA45E;
+    color: black;
+  }
+}
+#gallery{
+  padding: 40px;
+  background-color: #273c75;
+  h3{
+    font-size: 20px;
+    color: white;
+  }
+  h2{
+    color: #CDA45E;
+    font-size: 40px;
+  }
+  img{
+    width: 100%;
+  }
+  img:hover{
+    box-shadow: 0 8px 16px 0 black;
+    transition: 1.5s;
+  }
+}
+#chefs{
+  padding: 40px;
+  background-color: black;
+  h3{
+    color: white;
+    font-size: 20px;
+  }
+  h2{
+    font-size: 40px;
+    color: #CDA45E;
+    padding-bottom: 20px;
+  }
+  img{
+    width: 100%;
+  }
+  .img-text{
+    margin-top: -110px;
+    text-align: center;
+    h4{
+      color: black;
+      font-size: 25px;
+    }
+    p{
+      color: black;
+      font-size: 15px;
+    }
+    .fab{
+      color: black;
+      font-size: 25px;
+      margin-right: 10px;
+    }
+  }
+}
+#contact{
+  padding: 40px;
+  background-color: black;
+  h3{
+    color: white;
+    font-size: 20px;
+  }
+  hr{
+    border: 1px solid green;
+    margin-left: 0;
+    width: 20%;
+  }
+  h2{
+    font-size: 40px;
+    color: green;
+    margin-bottom: 20px;
+  }
+  .location,
+  .open-hours,
+  .email,
+  .call{
+    .fas{
+      font-size: 25px;
+      color: green;
+    }
+    h3{
+      font-size: 15px;
+    }
+  }
+  a{
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: #CDA45E;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+  }
+}
+#footer{
+  padding: 40px;
+  background-color: #6D214F;
+  .footer-1-section{
+    color: white;
+    h2{
+      font-size: 30px;
+      color: white;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  .footer-2-section{
+    h2{
+      color: #CDA45E;
+      font-size: 30px;
+    }
+    li,a{
+      list-style-type: circle;
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .footer-3-section{
+    h3{
+      color: #CDA45E;
+      font-size: 30px;
+    }
+    li,a{
+      list-style-type: circle;
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .footer-4-section{
+    h3{
+      color: #CDA45E;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 20px;
+      color: white;
+    }
+  }
+}
+#copyright-section{
+  padding: 40px;
+  background-color: black;
+  text-align: center;
+  .fas{
+    font-size: 20px;
+    color: green;
+  }
+  h6{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  p{
+    font-size: 15px;
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+  #top-bc{
+    #home{
+      text-align: center;
+      h1{
+        font-size: 100%;
+      }
+      p{
+        font-size: 100%;
+      }
+      a{
+        font-size: 100%;
+      }
+      .videO{
+        margin-top: 10%;
+
+        .fab{
+          font-size: 60px;
+          color: green;
+        }
+      }
+    }
+  }
+  #menu{
+    .menu-2{
+      font-size: 30px;
+    }
+    li,a{
+      font-size: 100%;
+    }
+    img{
+      width: 25%;
+      margin-top: 0px;
+    }
+    h5{
+      font-size: 15px;
+      text-align: center;
+    }
+    p{
+      padding-bottom: 20px;
+    }
+  }
+}
+@media(max-width: 576px){
+  #why-us{
+    h2{
+      font-size: 25px;
+    }
+    .card{
+      margin-bottom: 10px;
+    }
+  }
+  #event{
+    height: 1800px;
+    position: relative;
+    .dark-overlay{
+      height: 1800px;
+      position: absolute;
+    }
+    img{
+      margin-top: 30px;
+    }
+    .first-text{
+      h2{
+        font-size: 100%;
+      }
+    }
+  }
+  #gallery{
+    h2{
+      font-size: 100%;
+    }
+    img{
+      margin-bottom: 10px;
+    }
+  }
+  #chefs{
+    .img-text{
+      margin-bottom: 20px;
+    }
+  }
+}
+@media(max-width: 480px){
+    #home{
+      h1{
+        font-size: 100%;
+      }
+    }
+  #specials{
+    h2{
+      font-size: 25px;
+    }
+  }
+#event{
+  height: 1650px;
+  position: relative;
+  .dark-overlay{
+    height: 1650px;
+    position: absolute;
+  }
+}
+#chefs{
+  h2{
+    font-size: 100%;
+  }
+}
+#book-a-table{
+  h2{
+    font-size: 100%;
+  }
+}
+}
+@media(max-width: 380px){
+  #why-us{
+    h2{
+      font-size: 20px;
+    }
+    .card{
+      margin-bottom: 10px;
+    }
+  }
+  #menu{
+    .menu-2{
+      font-size: 20px;
+    }
+    li,a{
+      float: none;
+      display: none;
+    }
+    img{
+      width: 100%;
+    }
+    h5{
+      margin-left: 60px;
+      text-align: center;
+    }
+    p{
+      font-size: 15px;
+      text-align: left;
+    }
+  }
+  #event{
+    height: 1480px;
+    position: relative;
+    .dark-overlay{
+      height: 1480px;
+      position: absolute;
+    }
+  }
+}
